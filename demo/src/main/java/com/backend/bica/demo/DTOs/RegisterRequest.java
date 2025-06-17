@@ -1,4 +1,4 @@
-package com.backend.DTOs;
+package com.backend.bica.demo.DTOs;
 
 public class RegisterRequest {
     private String username;

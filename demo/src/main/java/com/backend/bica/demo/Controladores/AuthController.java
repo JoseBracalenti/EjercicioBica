@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.backend.DTOs.LoginRequest;
-import com.backend.DTOs.LoginResponse;
-import com.backend.DTOs.RegisterRequest;
-import com.backend.Modelo.Usuario;
+import com.backend.bica.demo.DTOs.LoginRequest;
+import com.backend.bica.demo.DTOs.LoginResponse;
+import com.backend.bica.demo.DTOs.RegisterRequest;
+import com.backend.bica.demo.Modelo.Usuario;
 import com.backend.bica.demo.Repositorios.UsuarioDAO;
 import com.backend.bica.demo.Seguridad.JwtUtils;
 
